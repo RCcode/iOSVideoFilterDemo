@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C88EF0D01AA98BCD003299A1 /* libSCRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88EF0CD1AA98BBF003299A1 /* libSCRecorder.a */; };
+		C88EF0D21AA98CB3003299A1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88EF0D11AA98CB3003299A1 /* GLKit.framework */; };
+		C88EF0D41AA98CC5003299A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88EF0D31AA98CC5003299A1 /* UIKit.framework */; };
+		C88EF0D61AA98CCB003299A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88EF0D51AA98CCB003299A1 /* CoreGraphics.framework */; };
+		C88EF0D81AA98CD6003299A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88EF0D71AA98CD6003299A1 /* Foundation.framework */; };
+		C88EF0DD1AA993A2003299A1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88EF0DC1AA993A2003299A1 /* CoreVideo.framework */; };
+		C88EF0DF1AA993AA003299A1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88EF0DE1AA993AA003299A1 /* AudioToolbox.framework */; };
 		C8A258531AA5BC56004AF251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A258521AA5BC56004AF251 /* main.m */; };
 		C8A258561AA5BC56004AF251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A258551AA5BC56004AF251 /* AppDelegate.m */; };
 		C8A258591AA5BC56004AF251 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A258581AA5BC56004AF251 /* ViewController.m */; };
@@ -14,9 +21,24 @@
 		C8A2585E1AA5BC56004AF251 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A2585D1AA5BC56004AF251 /* Images.xcassets */; };
 		C8A258611AA5BC56004AF251 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8A2585F1AA5BC56004AF251 /* LaunchScreen.xib */; };
 		C8A2586D1AA5BC56004AF251 /* VideoBlurDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2586C1AA5BC56004AF251 /* VideoBlurDemoTests.m */; };
+		C8A54FEA1AAD8CE400366343 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A54FE91AAD8CE400366343 /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C88EF0CC1AA98BBF003299A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88EF0C71AA98BBF003299A1 /* SCRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC23FE1117B4200700389EDA;
+			remoteInfo = SCRecorder;
+		};
+		C88EF0CE1AA98BBF003299A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88EF0C71AA98BBF003299A1 /* SCRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCA8EF50192BD1C200839BE2;
+			remoteInfo = SCRecorderMac;
+		};
 		C8A258671AA5BC56004AF251 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8A258451AA5BC55004AF251 /* Project object */;
@@ -27,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C88EF0C71AA98BBF003299A1 /* SCRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCRecorder.xcodeproj; path = Library/SCRecorder.xcodeproj; sourceTree = "<group>"; };
+		C88EF0D11AA98CB3003299A1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C88EF0D31AA98CC5003299A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C88EF0D51AA98CCB003299A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C88EF0D71AA98CD6003299A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C88EF0DC1AA993A2003299A1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C88EF0DE1AA993AA003299A1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C8A2584D1AA5BC56004AF251 /* VideoBlurDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBlurDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A258511AA5BC56004AF251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8A258521AA5BC56004AF251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +69,8 @@
 		C8A258661AA5BC56004AF251 /* VideoBlurDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBlurDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A2586B1AA5BC56004AF251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8A2586C1AA5BC56004AF251 /* VideoBlurDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoBlurDemoTests.m; sourceTree = "<group>"; };
+		C8A54FE81AAD8CE400366343 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		C8A54FE91AAD8CE400366343 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88EF0DF1AA993AA003299A1 /* AudioToolbox.framework in Frameworks */,
+				C88EF0DD1AA993A2003299A1 /* CoreVideo.framework in Frameworks */,
+				C88EF0D81AA98CD6003299A1 /* Foundation.framework in Frameworks */,
+				C88EF0D61AA98CCB003299A1 /* CoreGraphics.framework in Frameworks */,
+				C88EF0D41AA98CC5003299A1 /* UIKit.framework in Frameworks */,
+				C88EF0D21AA98CB3003299A1 /* GLKit.framework in Frameworks */,
+				C88EF0D01AA98BCD003299A1 /* libSCRecorder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C88EF0C81AA98BBF003299A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88EF0CD1AA98BBF003299A1 /* libSCRecorder.a */,
+				C88EF0CF1AA98BBF003299A1 /* SCRecorderMac.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89090301ABC28A50023D8D1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		C8A258441AA5BC55004AF251 = {
 			isa = PBXGroup;
 			children = (
+				C88EF0DE1AA993AA003299A1 /* AudioToolbox.framework */,
+				C88EF0DC1AA993A2003299A1 /* CoreVideo.framework */,
+				C88EF0D71AA98CD6003299A1 /* Foundation.framework */,
+				C88EF0D51AA98CCB003299A1 /* CoreGraphics.framework */,
+				C88EF0D31AA98CC5003299A1 /* UIKit.framework */,
+				C88EF0D11AA98CB3003299A1 /* GLKit.framework */,
+				C88EF0C71AA98BBF003299A1 /* SCRecorder.xcodeproj */,
 				C8A2584F1AA5BC56004AF251 /* VideoBlurDemo */,
 				C8A258691AA5BC56004AF251 /* VideoBlurDemoTests */,
 				C8A2584E1AA5BC56004AF251 /* Products */,
@@ -81,10 +142,13 @@
 		C8A2584F1AA5BC56004AF251 /* VideoBlurDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C89090301ABC28A50023D8D1 /* Category */,
 				C8A258541AA5BC56004AF251 /* AppDelegate.h */,
 				C8A258551AA5BC56004AF251 /* AppDelegate.m */,
 				C8A258571AA5BC56004AF251 /* ViewController.h */,
 				C8A258581AA5BC56004AF251 /* ViewController.m */,
+				C8A54FE81AAD8CE400366343 /* EditViewController.h */,
+				C8A54FE91AAD8CE400366343 /* EditViewController.m */,
 				C8A2585A1AA5BC56004AF251 /* Main.storyboard */,
 				C8A2585D1AA5BC56004AF251 /* Images.xcassets */,
 				C8A2585F1AA5BC56004AF251 /* LaunchScreen.xib */,
@@ -186,6 +250,12 @@
 			mainGroup = C8A258441AA5BC55004AF251;
 			productRefGroup = C8A2584E1AA5BC56004AF251 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C88EF0C81AA98BBF003299A1 /* Products */;
+					ProjectRef = C88EF0C71AA98BBF003299A1 /* SCRecorder.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C8A2584C1AA5BC56004AF251 /* VideoBlurDemo */,
@@ -193,6 +263,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C88EF0CD1AA98BBF003299A1 /* libSCRecorder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSCRecorder.a;
+			remoteRef = C88EF0CC1AA98BBF003299A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C88EF0CF1AA98BBF003299A1 /* SCRecorderMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SCRecorderMac.framework;
+			remoteRef = C88EF0CE1AA98BBF003299A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C8A2584B1AA5BC56004AF251 /* Resources */ = {
@@ -219,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A54FEA1AAD8CE400366343 /* EditViewController.m in Sources */,
 				C8A258591AA5BC56004AF251 /* ViewController.m in Sources */,
 				C8A258561AA5BC56004AF251 /* AppDelegate.m in Sources */,
 				C8A258531AA5BC56004AF251 /* main.m in Sources */,
@@ -297,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -343,8 +431,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Library/Sources\"",
+				);
 				INFOPLIST_FILE = VideoBlurDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +450,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Library/Sources\"",
+				);
 				INFOPLIST_FILE = VideoBlurDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +518,7 @@
 				C8A258721AA5BC56004AF251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8A258731AA5BC56004AF251 /* Build configuration list for PBXNativeTarget "VideoBlurDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +527,7 @@
 				C8A258751AA5BC56004AF251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

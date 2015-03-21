@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "SCRecorder.h"
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate,UINavigationControllerDelegate,SCRecorderDelegate>
 
 
 @end
