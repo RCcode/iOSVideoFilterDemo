@@ -9,6 +9,7 @@
 #import "EditViewController.h"
 #import "SCPlayer.h"
 #import "SCAssetExportSession.h"
+#import "CIFilter+LUT.h"
 @interface EditViewController ()
 {
     SCPlayer *_player;
@@ -49,11 +50,15 @@
     [self.view addSubview:self.filterSwitcherView];
     self.filterSwitcherView.filterGroups = @[
                                              [NSNull null],
-                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectNoir"]],
-                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectChrome"]],
-                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectInstant"]],
-                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectTonal"]],
-                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectFade"]]
+//                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectNoir"]],
+//                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectChrome"]],
+//                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectInstant"]],
+//                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectTonal"]],
+//                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithName:@"CIPhotoEffectFade"]],
+                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithCIFilter:[CIFilter filterWithLUT:@"lookup-pink" dimension:64]]],
+                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithCIFilter:[CIFilter filterWithLUT:@"lookup-red" dimension:64]]],
+                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithCIFilter:[CIFilter filterWithLUT:@"lookup-romancing" dimension:64]]]
+//                                             [SCFilterGroup filterGroupWithFilter:[SCFilter filterWithCIFilter:[CIFilter filterWithLUT:@"filter_lut_4" dimension:64]]]
                                              // Adding a filter created using CoreImageShop
 //                                             [SCFilterGroup filterGroupWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"a_filter" withExtension:@"cisf"]]
                                              ];

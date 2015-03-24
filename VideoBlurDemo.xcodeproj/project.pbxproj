@@ -22,6 +22,14 @@
 		C8A258611AA5BC56004AF251 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8A2585F1AA5BC56004AF251 /* LaunchScreen.xib */; };
 		C8A2586D1AA5BC56004AF251 /* VideoBlurDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2586C1AA5BC56004AF251 /* VideoBlurDemoTests.m */; };
 		C8A54FEA1AAD8CE400366343 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A54FE91AAD8CE400366343 /* EditViewController.m */; };
+		C8B015EB1AC109E80043120A /* CIFilter+LUT.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B015EA1AC109E80043120A /* CIFilter+LUT.m */; };
+		C8B015F21AC10AE90043120A /* filter_lut_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B015EE1AC10AE90043120A /* filter_lut_1.png */; };
+		C8B015F31AC10AE90043120A /* filter_lut_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B015EF1AC10AE90043120A /* filter_lut_2.png */; };
+		C8B015F41AC10AE90043120A /* filter_lut_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B015F01AC10AE90043120A /* filter_lut_3.png */; };
+		C8B015F51AC10AE90043120A /* filter_lut_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B015F11AC10AE90043120A /* filter_lut_4.png */; };
+		C8B015F91AC10D5C0043120A /* lookup-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B015F61AC10D5C0043120A /* lookup-pink.png */; };
+		C8B015FA1AC10D5C0043120A /* lookup-red.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B015F71AC10D5C0043120A /* lookup-red.png */; };
+		C8B015FB1AC10D5C0043120A /* lookup-romancing.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B015F81AC10D5C0043120A /* lookup-romancing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +79,15 @@
 		C8A2586C1AA5BC56004AF251 /* VideoBlurDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoBlurDemoTests.m; sourceTree = "<group>"; };
 		C8A54FE81AAD8CE400366343 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		C8A54FE91AAD8CE400366343 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		C8B015E91AC109E80043120A /* CIFilter+LUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIFilter+LUT.h"; sourceTree = "<group>"; };
+		C8B015EA1AC109E80043120A /* CIFilter+LUT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIFilter+LUT.m"; sourceTree = "<group>"; };
+		C8B015EE1AC10AE90043120A /* filter_lut_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_lut_1.png; sourceTree = "<group>"; };
+		C8B015EF1AC10AE90043120A /* filter_lut_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_lut_2.png; sourceTree = "<group>"; };
+		C8B015F01AC10AE90043120A /* filter_lut_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_lut_3.png; sourceTree = "<group>"; };
+		C8B015F11AC10AE90043120A /* filter_lut_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_lut_4.png; sourceTree = "<group>"; };
+		C8B015F61AC10D5C0043120A /* lookup-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookup-pink.png"; sourceTree = "<group>"; };
+		C8B015F71AC10D5C0043120A /* lookup-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookup-red.png"; sourceTree = "<group>"; };
+		C8B015F81AC10D5C0043120A /* lookup-romancing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookup-romancing.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +159,17 @@
 		C8A2584F1AA5BC56004AF251 /* VideoBlurDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C8B015F61AC10D5C0043120A /* lookup-pink.png */,
+				C8B015F71AC10D5C0043120A /* lookup-red.png */,
+				C8B015F81AC10D5C0043120A /* lookup-romancing.png */,
+				C8B015EE1AC10AE90043120A /* filter_lut_1.png */,
+				C8B015EF1AC10AE90043120A /* filter_lut_2.png */,
+				C8B015F01AC10AE90043120A /* filter_lut_3.png */,
+				C8B015F11AC10AE90043120A /* filter_lut_4.png */,
 				C89090301ABC28A50023D8D1 /* Category */,
 				C8A258541AA5BC56004AF251 /* AppDelegate.h */,
+				C8B015E91AC109E80043120A /* CIFilter+LUT.h */,
+				C8B015EA1AC109E80043120A /* CIFilter+LUT.m */,
 				C8A258551AA5BC56004AF251 /* AppDelegate.m */,
 				C8A258571AA5BC56004AF251 /* ViewController.h */,
 				C8A258581AA5BC56004AF251 /* ViewController.m */,
@@ -287,8 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A2585C1AA5BC56004AF251 /* Main.storyboard in Resources */,
+				C8B015F21AC10AE90043120A /* filter_lut_1.png in Resources */,
+				C8B015FB1AC10D5C0043120A /* lookup-romancing.png in Resources */,
 				C8A258611AA5BC56004AF251 /* LaunchScreen.xib in Resources */,
+				C8B015F91AC10D5C0043120A /* lookup-pink.png in Resources */,
 				C8A2585E1AA5BC56004AF251 /* Images.xcassets in Resources */,
+				C8B015F31AC10AE90043120A /* filter_lut_2.png in Resources */,
+				C8B015FA1AC10D5C0043120A /* lookup-red.png in Resources */,
+				C8B015F41AC10AE90043120A /* filter_lut_3.png in Resources */,
+				C8B015F51AC10AE90043120A /* filter_lut_4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +342,7 @@
 				C8A54FEA1AAD8CE400366343 /* EditViewController.m in Sources */,
 				C8A258591AA5BC56004AF251 /* ViewController.m in Sources */,
 				C8A258561AA5BC56004AF251 /* AppDelegate.m in Sources */,
+				C8B015EB1AC109E80043120A /* CIFilter+LUT.m in Sources */,
 				C8A258531AA5BC56004AF251 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
